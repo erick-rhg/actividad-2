@@ -118,6 +118,7 @@ h3 {
 
 .header__logo-link {
     text-decoration: none;
+    outline: none;
 }
 
 .header__logo-img {}
