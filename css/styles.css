@@ -11,14 +11,7 @@
 
 body {
     line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
     min-height: 100vh;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    html {
-        interpolate-size: allow-keywords;
-    }
 }
 
 img,
@@ -75,6 +68,7 @@ ul {
     --font-body: clamp(1.6rem, 1.2vw + 1rem, 2rem);
     --font-h1: clamp(2.8rem, 3vw + 1rem, 4rem);
     --font-h2: clamp(2.4rem, 2.5vw + 1rem, 3.2rem);
+    --font-h3: clamp(2rem, 2vw + 1rem, 2.8rem);
 }
 
 html {
