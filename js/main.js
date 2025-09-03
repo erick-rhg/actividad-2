@@ -6,4 +6,3 @@ function timeRefresh() {
     const time = new Date().toTimeString()
     document.getElementById("horaJs").textContent = time
 }
-
